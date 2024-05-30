@@ -10,8 +10,6 @@
     path: "{{ app_loaction }}"
     state:directory
 
-
-
 - name: download and extract code
   ansible.builtin.unarchive:
     src: "https://expense-builds.s3.us-east-1.amazonaws.com/expense-{{ component }}-v2.zip"
