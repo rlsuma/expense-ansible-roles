@@ -8,7 +8,7 @@
     name: nginx
     state: started
     enabled: yes
-    ignore_erros: yes
+    
     
 
 - name: run app pre-requisites
