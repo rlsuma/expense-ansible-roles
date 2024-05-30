@@ -1,5 +1,5 @@
 login_user: root
-login_host: db.daws78s.online
+login_host: db.rlsu.shop
 login_password: ExpenseApp@1
 DB_HOST: db.rlsu.shop
 app_location: /app
