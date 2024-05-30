@@ -2,5 +2,4 @@
   hosts: backend
   become:yes
   roles:
-  - backend
-  
+   - backend
