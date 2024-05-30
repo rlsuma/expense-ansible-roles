@@ -1,14 +1,13 @@
 - name: delete app directory
   ansible.builtin.file:
-    path: "{{ app_loaction }}"
+    path: "{{ app_location }}"
     state: absent
-    igonre_errors: yes
-
+  #ignore_errors: yes
 
 - name: create app directory
   ansible.builtin.file:
-    path: "{{ app_loaction }}"
-    state:directory
+    path: "{{ app_location }}"
+    state: directory
 
 - name: download and extract code
   ansible.builtin.unarchive:
