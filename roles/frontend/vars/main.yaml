@@ -1,1 +1,3 @@
 BACKEND_API_URL: backend.rlsu.shop
+component: frontend
+app_loaction: /usr/share/nginx/html
