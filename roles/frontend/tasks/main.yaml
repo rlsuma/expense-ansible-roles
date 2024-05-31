@@ -10,7 +10,6 @@
     enabled: yes
 
     
-    
 - name: run app pre-requisites
   ansible.builtin.import_role:
     name: common
